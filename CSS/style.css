@@ -1,0 +1,69 @@
+<style type="text/css">
+    h1{
+        color: rgb(7, 102, 7);
+        text-decoration: underline;
+    }
+    .lists{
+        color: rgb(7, 102, 7);
+        font-size: 16pt;
+    }
+    p{
+        font-size: 12pt;
+        color:rgb(151, 10, 10);
+        }
+    th{
+        font-size: 12pt;
+        color: rgb(151, 10, 10);
+    }
+    ol{
+        font-style: inherit;
+        color: brown;
+    }
+    body{
+        background-color: rgb(206, 206, 195);
+    }
+    a{
+        color: purple;
+    }
+    #spoiler{
+        font-style: italic;
+        font-size: 10pt;
+    }
+    #div1{
+        background-color: cornsilk;
+    }
+    #div2{
+        background-color: rgb(145, 229, 229);
+    }
+    #div1, #div2{
+        border-width: thin;
+        border-style: dotted;
+    }
+    form{
+        padding:15px;
+        background-color: rgb(19, 203, 228);
+        width: 33%;
+        font-style: italic;
+        border-style: solid;
+        font-weight: 900;
+        position: absolute;
+        bottom: 15mm;
+        right: 2mm;
+    }
+    input[type=button]{
+        color: black;
+        background-color: rgb(175, 233, 175);
+        padding: 5px;
+    }
+    input[type=button]:hover{
+        border: solid;
+        background-color: rgb(218, 56, 16);
+    }
+    #img1{
+        float: right;
+        width: 22%;
+    }
+    .clearfix{
+        overflow:auto;
+    }
+</style>

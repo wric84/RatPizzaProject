@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Animation</title>
+<style type="text/css">
+    .parent {
+        background-color: chartreuse;
+        height:800px;
+        width:800px;
+    }
+
+    .child{
+        background-color: red;
+        height: 50%;
+        width: 50%;
+        transition: transform 1s ease-out;
+    }
+
+    .parent:hover .child{
+        background-color: chocolate;
+        transform: translateX(100%)
+
+    }
+
+</style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+</body>
+</html>
