@@ -1,0 +1,11 @@
+song = 'This was never the way I planned \nNot my intention \nI got so brave, drink in hand \nLost my discretion \nIt\'s not what I\'m used to (used to) \nJust wanna try you on I\'m curious for you (for you) \nCaught my attention \nI kissed a girl and I liked it \nThe taste of her cherry chapstick \nI kissed a girl just to try it \nI hope my boyfriend don\'t mind it \nIt felt so wrong, it felt so right \nDon\'t mean I\'m in love tonight \nI kissed a girl and I liked it \nI liked it'
+song = song.replace(/kissed/gi, 'ate')
+    .replace(/girl/gi, 'egg McMuffin')
+    .replace(/girl/gi, 'egg McMuffin')
+    .replace(/cherry chapstick/gi, 'buttery biscuit')
+    .replace(/her/gi, 'the')
+console.log(song)
+//console.log(song.replaceAll('I', 'you'))
+console.log(song.includes('intention'))
+console.log(song.endsWith('girl'))
+console.log(song.startsWith('This'))
