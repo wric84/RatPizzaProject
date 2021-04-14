@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulate HTML</title>
+    <script src="../JSbasic/manipulateHTML.js"></script>
+</head>
+<body>
+    <p>This sentence needs rewritten</p>
+    <p></p>
+    <p id='Bananarama'>googly</p>
+    <div class='Rando1'></div>
+    <div class='Rando1'></div>
+    <div class='Rando1'>googly</div>
+    <script>
+        //var contentDiv = document.getElementsByClassName('Content')
+        //1.
+        var myP = document.getElementsByTagName('p');
+        myP[0].innerHTML='consider it manipulated';
+        myP[1].textContent = 'Here is some random text'
+        var myDiv = document.getElementsByClassName('Rando1')
+        myDiv[0].className = 'Random1'
+        myDiv[1].className = 'Random1'
+        //myDiv[2].className = 'Random1'
+        //5.
+        let classess = document.getElementsByClassName('Random1');
+        let lastClassLet = classess[2];
+        var myP2 = document.getElementById('Bananarama');
+        myP2.textContent = 'apple'
+        
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+    <p id="para4"></p>
+<script>
+    let person = {
+        fname:"Colton", lname:"Wright", favoriteNumber:3, favoriteTypeOfFilm:'Documentary', recentFavoriteTVShow:'Taskmaster', favoriteSoup:'Chowder', favoriteSubjectInSchool:'N/A', favoriteAuthor:'Kurt Vonnegut', favoriteVacation:'Morocco? Tanzania? Spain?', fullName:function(){
+            return this.fname+this.lname 
+        },favoriteFilmCategory:function(){
+            return this.fname + ' likes to watch: ' + this.favoriteTypeOfFilm
+        },
+        math: 66, science: 77, english:33, calculateAv: function(){
+            this.result = (this.math+this.science+this.english)/3
+            return this.fullName();
+        }
+    }
+document.getElementById('para1').innerHTML=person.fullName();
+document.getElementById('para2').innerHTML=person.favoriteFilmCategory();
+document.getElementById('para3').innerHTML=person.calculateAv();
+document.getElementById('para4').innerHTML=person.result;
+
+</script>
+</body>
+</html>
