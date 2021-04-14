@@ -1,0 +1,1 @@
+var contentDiv = document.getElementsByClassName('Content')
